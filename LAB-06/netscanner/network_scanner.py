@@ -36,7 +36,7 @@ def get_vendor_by_mac(mac):
 
 # Điều phối quá trình quét mạng và hiển thị kết quả
 def main():
-    ip_range = "10.12.132.69/24"
+    ip_range = "10.12.132.69/24" # vô CMD và gõ lệnh ipconfig lấy Ipv4
     devices = local_network_scan(ip_range)
     print("Devices on the local network:")
     if not devices:
