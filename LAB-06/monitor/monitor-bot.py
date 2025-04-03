@@ -5,9 +5,9 @@ import asyncio
 from telegram import Bot
 
 # Mã token của bot, dùng để xác thực với API Telegram
-BOT_TOKEN = "7784879301:AAEfUyZJUy6qN3-91GkWfnN5teUW4tryLUI"
+BOT_TOKEN = "7784879301:AAEfUyZJUy6qN3-91GkWfnN5teUW4tryLUI" # ĐỔI BOT_TOKEN 
 # ID của chat (có thể là nhóm hoặc người dùng) nơi bạn muốn gửi thông báo
-CHAT_ID = "-4619536475"
+CHAT_ID = "-4619536475" # ĐỔi CHAT_ID
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
